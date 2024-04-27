@@ -27,7 +27,7 @@ class Frame{
         }
     	
         mainFrame = new JFrame();
-        mainFrame.setTitle("PingPong Game");
+        mainFrame.setTitle("PingPong Game"); //ตั้งชื่อหน้าเกม
         mainFrame.setSize(GAME_FRAME_WIDTH, GAME_FRAME_HEIGHT);
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         mainFrame.setResizable(false);
