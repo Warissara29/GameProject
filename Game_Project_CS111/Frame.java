@@ -17,7 +17,7 @@ class Frame{
     public static void main(String[] args) {
     	// โค้ดบรรทัดที่ 19-27 มาจากถามปัญญาประดิษฐ์ เพื่อแก้ปัญญาการนำเพลงเข้าแต่ไม่สามารถเปิดเพลงได้
     	try { 
-            File file = new File("chipi.wav"); //เพิ่มไฟล์เล่นเพลง
+            File file = new File("chipi.wav"); //เพิ่มไฟล์ chipi.wav เพื่อเล่นเพลง
             AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
             clip = AudioSystem.getClip();
             clip.open(audioStream);
