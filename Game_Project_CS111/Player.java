@@ -70,9 +70,6 @@ public class Player extends Rectangle{
 	public int moveDOWN() {
 		return this.y += 5;
 	}
-	public double getY() {
-		return this.y;
-	}
 	// โค้ดบรรทัดที่ 78-82 เป็นผลงานของ ช่องยุปทูป Bro code
 	public void draw(Graphics g) {
 		if(PlayerID==1)
